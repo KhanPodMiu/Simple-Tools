@@ -12,9 +12,9 @@ def generate_qr():
         img = qrcode.make(data)
         file_name = "qr_code.png"
         img.save(file_name)
-        print(f"✅ QR Code saved as '{file_name}'")
+        print(f" QR Code saved as '{file_name}'")
     except Exception as e:
-        print(f"❌ Failed to generate QR Code: {e}")
+        print(f" Failed to generate QR Code: {e}")
 
 def run():
     while True:
